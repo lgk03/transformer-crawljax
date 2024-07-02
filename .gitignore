@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# files downladed while crawling
+*.vcf
+*.ics
+*.zip
+export*.csv
+import*.csv
+
+# output folder of the crawler created by the CrawlOverview Plugin
+out/
+
+# venv
+venv/
+__pycache__/
+
+# target folder of the maven build
+target/
